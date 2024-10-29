@@ -18,7 +18,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </div>
-          <ul className="flex gap-20 justify-center m-5 text-xl font-medium">
+          <ul className="flex gap-20 justify-center m-3 text-xl font-medium">
             <li className="">
               <NavLink to="/men" >Men</NavLink>
             </li>
