@@ -1,13 +1,17 @@
 import Carousel from "../components/Carousel"
 import Navbar from "../components/Navbar"
-import Page from "../components/Page"
+import NewArrival from "../components/NewArrival"
 
 const Home = () => {
   return (
     <div>
-        <Navbar />
-        <Carousel />
-        <Page />
+        <div className="h-screen">
+          <Navbar />
+          <Carousel />
+        </div>
+        <div>
+          <NewArrival />
+        </div>
     </div>
   )
 }
